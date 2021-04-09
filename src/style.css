@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bea3a3;
+    font-family: 'Optima', sans-serif;
+}
+
+h1 {
+    color: #d04c4c;
+    font-family: 'Optima', serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: .8;
+    margin: 0;
+}
+
+h2 {
+    color: #4d4d4d;
+    font-size: 38px;
+    margin: 20px 0 30px;
+}
+
+p {
+    color: #4d4d4d;
+    font-size: 16px;
+    margin: 0;
+    word-break: break-all;
+}
+
+.container{
+    margin: 0 46px;
+}
+
