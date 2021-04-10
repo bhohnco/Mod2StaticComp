@@ -4,13 +4,13 @@
 
 body {
     background-color: #eae2e2;
-    font-family: 'Optima', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
     color: #d04c4c;
-    font-family: 'Optima', serif;
-    font-size: 43px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px;
     font-weight: 700;
     line-height: .8;
     margin: 0;
@@ -69,7 +69,7 @@ header {
 }
 
 span {
-    color: #c52747;
+    color: navajowhite;
 }
 
 span:hover {
@@ -81,12 +81,13 @@ ul {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-    width: 550px;
+    width: 625px;
 }
 
 li {
-    color: gray;
+    color: navajowhite;
     list-style-type: none;
+    font-size: 17px;
 }
 
 i {
@@ -126,7 +127,7 @@ i {
 }
 
 .view {
-    color: white;
+    color: navajowhite;
     text-align: center;
 }
 
@@ -136,17 +137,42 @@ i {
 
 .card1 {
     background-image: url(assests/TomPetty1.jpg);
-    filter: brightness(75%);
+    filter: brightness(80%);
 }
 
 .card2 {
     background-image: url(assests/Shakes.jpg);
-    filter: brightness(75%);
+    filter: brightness(80%);
 }
 
 .card3 {
     background-image: url(assests/FM.jpg);
+    filter: brightness(80%);
+}
+
+.card4 {
+    background-image: url(assests/RS.jpg);
+    filter: brightness(80%);
+}
+
+.card5 {
+    background-image: url(assests/TBTRedRocks.jpg);
     filter: brightness(75%);
+}
+
+.card6 {
+    background-image: url(assests/DG.jpg.png);
+    filter: brightness(75%);
+}
+
+.card7 {
+    background-image: url(assests/FandM2.jpeg);
+    filter: brightness(95%);
+}
+
+.card8 {
+    background-image: url(assests/RMA3.jpg);
+    filter: brightness(95%);
 }
 
 .hide {
@@ -154,10 +180,27 @@ i {
 }
 
 img {
-    height: 50px;
-    background-color: #cfcfcf;
+    height: 40px;
+    background-color: lightgray;
 }
 
 img:hover {
     height: 65px;
+}
+
+.lower-card {
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.link {
+    align-self: center;
+    background-color: #efefef;
+    font-size: 12px;
+    padding: 25px;
+    border-radius: 5px;
 }
