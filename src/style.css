@@ -151,7 +151,7 @@ i {
 }
 
 .card4 {
-    background-image: url(assests/RS.jpg);
+    background-image: url(assests/RMA3.jpg);
     filter: brightness(80%);
 }
 
@@ -171,7 +171,7 @@ i {
 }
 
 .card8 {
-    background-image: url(assests/RMA3.jpg);
+    background-image: url(assests/RS.jpg);
     filter: brightness(95%);
 }
 
@@ -197,10 +197,31 @@ img:hover {
     padding: 15px;
 }
 
+.card-text>h3 {
+    font-size: 20px;
+    line-height: 1;
+    margin: 0;
+}
+
+.card-text>h4 {
+    font-size: 13px;
+    margin: 0;
+}
+
 .link {
     align-self: center;
     background-color: #efefef;
-    font-size: 12px;
-    padding: 25px;
+    font-size: 13px;
+    padding: 20px;
     border-radius: 5px;
+}
+
+.attachments {
+    color: #0f5479;
+    font-size: 35px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
 }
