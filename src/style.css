@@ -3,12 +3,12 @@
 }
 
 body {
-    background-color: #eae2e2;
+    background-color: #05668D;
     font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-    color: #d04c4c;
+    color: #61b7d9;
     font-family: 'Poppins', sans-serif;
     font-size: 56px;
     font-weight: 700;
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    color: #4d4d4d;
+    color: #61b7d9;
     font-size: 38px;
     margin: 20px 0 30px;
 }
@@ -35,7 +35,7 @@ p {
 
 header {
     align-items: flex-end;
-    background-color: #2b2b2b;
+    background-color: #679436;
     display: flex;
     height: 160px;
     justify-content: space-between;
@@ -57,7 +57,7 @@ header {
 .admin-icon {
     border-radius: 50%;
     border: 1px solid white;
-    color: #d04c4c;
+    color: #61b7d9;
     margin-right: 6px;
     padding: 4px;
 }
@@ -69,11 +69,11 @@ header {
 }
 
 span {
-    color: navajowhite;
+    color: #EBF2FA;
 }
 
 span:hover {
-    color: #ffffff;
+    color: #EBF2FA;
 }
 
 ul {
@@ -85,13 +85,13 @@ ul {
 }
 
 li {
-    color: navajowhite;
+    color: #EBF2FA;
     list-style-type: none;
     font-size: 17px;
 }
 
 i {
-    color: #d04c4c;
+    color: #61b7d9;
     padding: 0 10px 0 0;
 }
 
@@ -102,14 +102,13 @@ i {
 }
 
 .grid {
-    box-shadow: 0 0 6px 2px #888888b5;
+    box-shadow: 0 0 6px 2px rgba(148, 147, 147, 0.71);
     display: grid;
     grid-template-rows: 35% 65%;
     height: 450px;
 }
 
 .top-row {
-    /*background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -122,12 +121,12 @@ i {
 }
 
 .text {
-    color: white;
+    color: #EBF2FA;
     text-align: center;
 }
 
 .view {
-    color: navajowhite;
+    color: #EBF2FA;
     text-align: center;
 }
 
@@ -190,7 +189,7 @@ img:hover {
 
 .lower-card {
     align-items: flex-start;
-    background-color: #ffffff;
+    background-color: #EBF2FA;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -198,19 +197,21 @@ img:hover {
 }
 
 .card-text>h3 {
+    color: #05668D;
     font-size: 20px;
     line-height: 1;
     margin: 0;
 }
 
 .card-text>h4 {
+    /*color: #05668D;*/
     font-size: 13px;
     margin: 0;
 }
 
 .link {
     align-self: center;
-    background-color: #efefef;
+    background-color: #e5dede;
     font-size: 13px;
     padding: 20px;
     border-radius: 5px;
@@ -224,4 +225,30 @@ img:hover {
 .card-text {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    /* phone */
+    header {
+        padding: 36px 46px;
+    }
+
+    h1 {
+        color: #d04c4c;
+        font-family: 'Poppins', sans-serif;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: .8;
+        margin: 0;
+    }
+
+    .menu-icon {
+        display: block;
+        padding: 0 5px;
+        font-size: 27px;
+    }
+
+    ul {
+        display: none;
+    }
 }
