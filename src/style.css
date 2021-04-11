@@ -1,3 +1,4 @@
+/*Main*/
 * {
     box-sizing: border-box;
 }
@@ -32,7 +33,7 @@ p {
 .container{
     margin: 0 46px;
 }
-
+/*header*/
 header {
     align-items: flex-end;
     background-color: #679436;
@@ -73,7 +74,7 @@ span {
 }
 
 span:hover {
-    color: #EBF2FA;
+    color: #05668D;
 }
 
 ul {
@@ -95,6 +96,13 @@ i {
     padding: 0 10px 0 0;
 }
 
+i:hover,
+li:hover,
+li:hover i {
+    color: #05668D;
+}
+
+/*grid*/
 .grid-container {
     display: grid;
     grid-gap: 12px;
@@ -134,6 +142,7 @@ i {
     font-size: 35px;
 }
 
+/*cards*/
 .card1 {
     background-image: url(assests/TomPetty1.jpg);
     filter: brightness(80%);
@@ -150,12 +159,12 @@ i {
 }
 
 .card4 {
-    background-image: url(assests/RMA3.jpg);
+    background-image: url(assests/RAM1.jpg);
     filter: brightness(80%);
 }
 
 .card5 {
-    background-image: url(assests/TBTRedRocks.jpg);
+    background-image: url(assests/atmosphere.jpg);
     filter: brightness(75%);
 }
 
@@ -174,8 +183,9 @@ i {
     filter: brightness(95%);
 }
 
-.hide {
-    display: none;
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,
+.card5:hover,.card6:hover,.card7:hover,.card8:hover{
+    filter: brightness(100%);
 }
 
 img {
@@ -184,7 +194,7 @@ img {
 }
 
 img:hover {
-    height: 65px;
+    height: 45px;
 }
 
 .lower-card {
@@ -204,7 +214,6 @@ img:hover {
 }
 
 .card-text>h4 {
-    /*color: #05668D;*/
     font-size: 13px;
     margin: 0;
 }
@@ -234,9 +243,40 @@ img:hover {
     }
 
     h1 {
-        color: #d04c4c;
+        color: #61b7d9;
         font-family: 'Poppins', sans-serif;
-        font-size: 27px;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: .8;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .menu-icon {
+        display: block;
+        padding: 0 10px;
+        margin-top: 10px;
+        font-size: 33px;
+    }
+
+    ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* tablet */
+    header {
+        padding: 36px 46px;
+    }
+
+    h1 {
+        color: #61b7d9;
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
         font-weight: 700;
         line-height: .8;
         margin: 0;
@@ -244,8 +284,8 @@ img:hover {
 
     .menu-icon {
         display: block;
-        padding: 0 5px;
-        font-size: 27px;
+        padding: 0 7px;
+        font-size: 35px;
     }
 
     ul {
